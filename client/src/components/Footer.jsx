@@ -41,7 +41,7 @@ export default function FooterCom() {
               <Footer.Title title='Follow us' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href='https://www.github.com/sahandghavidel'
+                  href='https://github.com/abhishek2022003'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -63,14 +63,14 @@ export default function FooterCom() {
         <div className='w-full sm:flex sm:items-center sm:justify-between'>
           <Footer.Copyright
             href='#'
-            by="Sahand's blog"
+            by="Abhishek's blog"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href='#' icon={BsFacebook}/>
-            <Footer.Icon href='#' icon={BsInstagram}/>
-            <Footer.Icon href='#' icon={BsTwitter}/>
-            <Footer.Icon href='https://github.com/sahandghavidel' icon={BsGithub}/>
+            <Footer.Icon href='https://www.facebook.com/profile.php?id=100007906815376&mibextid=ZbWKwL' icon={BsFacebook}/>
+            <Footer.Icon href='https://www.instagram.com/abhishek_jhaji143?igsh=ZHUwYXh1czNxZnQ5' icon={BsInstagram}/>
+            <Footer.Icon href='https://x.com/abhishek_9182?s=09' icon={BsTwitter}/>
+            <Footer.Icon href='https://github.com/abhishek2022003' icon={BsGithub}/>
             <Footer.Icon href='#' icon={BsDribbble}/>
 
           </div>
